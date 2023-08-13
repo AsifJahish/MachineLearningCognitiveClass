@@ -10,7 +10,7 @@ cdf = df[['ENGINESIZE','CYLINDERS','FUELCONSUMPTION_CITY','FUELCONSUMPTION_HWY',
 print(cdf.head(9))
 
 plt.scatter(cdf.ENGINESIZE, cdf.CO2EMISSIONS, color= 'blue')
-plt.xlabel("engine Size")
+plt.xlabel("(Engine Size in liters (L)))")
 plt.ylabel("Co2 Emission")
 plt.title("Engine Size as CorBon Emission")
 
